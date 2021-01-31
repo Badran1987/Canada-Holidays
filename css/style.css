@@ -1,0 +1,59 @@
+.header {
+    z-index: 19;
+    position: relative;
+    background: #1a1a1a2b;
+    color: #fff;
+}
+.bg-img{
+    background-image: url("../img/pexels-vladislav-vasnetsov-2354225.jpg");
+    min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero {
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%); ;
+}
+.menu{
+    display: inline-flex;
+    flex-wrap: wrap;}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 52px;
+
+}
+.hero img{
+    height: 30em;
+}
+
+#refreshBtn {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    background-color: #981f25;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+.provlistclass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+/* content style 
+.contanir {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px 0 10px;
+}*/
