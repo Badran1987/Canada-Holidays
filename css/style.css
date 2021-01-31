@@ -51,6 +51,20 @@
     margin-bottom: 30px;
     text-decoration: none;
 }
+
+.list {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 740px;
+    margin: auto;
+}
+
+#holyday {
+    color: black;
+    text-align: right;
+}
+
 /* content style 
 .contanir {
     display: grid;
