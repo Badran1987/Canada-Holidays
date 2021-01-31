@@ -64,7 +64,14 @@
     color: black;
     text-align: right;
 }
-
+.contaner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px auto;
+    background-color: aqua;
+    width: 80%;
+    text-align: center;
+}
 /* content style 
 .contanir {
     display: grid;
