@@ -30,7 +30,30 @@
 .hero img{
     height: 30em;
 }
+.holisays {
+    width: 80%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    grid-gap: 40px;
+   
+}
 
+.singleHoliday h1 {
+    grid-column: 1 / 3;
+}
+
+
+.singleHoliday {
+    background: #e2e2e2;
+    border: 1px solid green;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 43px;
+padding-right: 43px;
+}
 #refreshBtn {
     display: block;
     text-align: center;
